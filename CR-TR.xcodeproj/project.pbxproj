@@ -18,8 +18,8 @@
 		2A15CCF31C93FF66007F6893 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15CCE01C93FF66007F6893 /* main.m */; };
 		2A15CCF41C93FF66007F6893 /* QSOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15CCE51C93FF66007F6893 /* QSOtherViewController.m */; };
 		2A15CCF51C93FF66007F6893 /* QSUppgradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15CCEB1C93FF66007F6893 /* QSUppgradeViewController.m */; };
-		2A15CCF91C940078007F6893 /* QSTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15CCF81C940078007F6893 /* QSTabBarViewController.m */; };
 		2A15CCFC1C940296007F6893 /* QSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15CCFB1C940296007F6893 /* QSNavigationController.m */; };
+		2A15CCFF1C94090B007F6893 /* QSTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15CCFE1C94090B007F6893 /* QSTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,10 +65,10 @@
 		2A15CCEA1C93FF66007F6893 /* QSUppgradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSUppgradeViewController.h; sourceTree = "<group>"; };
 		2A15CCEB1C93FF66007F6893 /* QSUppgradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSUppgradeViewController.m; sourceTree = "<group>"; };
 		2A15CCF61C93FF78007F6893 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
-		2A15CCF71C940078007F6893 /* QSTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QSTabBarViewController.h; path = ../../../../QSTabBarViewController.h; sourceTree = "<group>"; };
-		2A15CCF81C940078007F6893 /* QSTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QSTabBarViewController.m; path = ../../../../QSTabBarViewController.m; sourceTree = "<group>"; };
 		2A15CCFA1C940296007F6893 /* QSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSNavigationController.h; sourceTree = "<group>"; };
 		2A15CCFB1C940296007F6893 /* QSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSNavigationController.m; sourceTree = "<group>"; };
+		2A15CCFD1C94090B007F6893 /* QSTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSTabBarViewController.h; sourceTree = "<group>"; };
+		2A15CCFE1C94090B007F6893 /* QSTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSTabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,8 +257,8 @@
 		2A15CCDB1C93FF66007F6893 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2A15CCF71C940078007F6893 /* QSTabBarViewController.h */,
-				2A15CCF81C940078007F6893 /* QSTabBarViewController.m */,
+				2A15CCFD1C94090B007F6893 /* QSTabBarViewController.h */,
+				2A15CCFE1C94090B007F6893 /* QSTabBarViewController.m */,
 				2A15CCFA1C940296007F6893 /* QSNavigationController.h */,
 				2A15CCFB1C940296007F6893 /* QSNavigationController.m */,
 			);
@@ -486,9 +486,9 @@
 				2A15CCF51C93FF66007F6893 /* QSUppgradeViewController.m in Sources */,
 				2A15CCFC1C940296007F6893 /* QSNavigationController.m in Sources */,
 				2A15CCF01C93FF66007F6893 /* UIBarButtonItem+Extension.m in Sources */,
-				2A15CCF91C940078007F6893 /* QSTabBarViewController.m in Sources */,
 				2A15CCEF1C93FF66007F6893 /* QSIntroduceViewController.m in Sources */,
 				2A15CCF11C93FF66007F6893 /* UIView+Extension.m in Sources */,
+				2A15CCFF1C94090B007F6893 /* QSTabBarViewController.m in Sources */,
 				2A15CCF41C93FF66007F6893 /* QSOtherViewController.m in Sources */,
 				2A15CCEE1C93FF66007F6893 /* QSHomeViewController.m in Sources */,
 				2A15CCF31C93FF66007F6893 /* main.m in Sources */,
