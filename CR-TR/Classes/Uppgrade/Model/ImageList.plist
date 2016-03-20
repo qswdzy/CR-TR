@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>category</key>
+		<string>白卡</string>
+		<key>name</key>
+		<string>bai</string>
+		<key>desc</key>
+		<string>最高12级</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>橙卡</string>
+		<key>name</key>
+		<string>cheng</string>
+		<key>desc</key>
+		<string>最高10级</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>紫卡</string>
+		<key>name</key>
+		<string>zi</string>
+		<key>desc</key>
+		<string>最高8级</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>传说卡</string>
+		<key>name</key>
+		<string>chuan</string>
+		<key>desc</key>
+		<string>最高6级</string>
+	</dict>
+</array>
+</plist>
