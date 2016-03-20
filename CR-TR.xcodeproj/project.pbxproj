@@ -20,6 +20,7 @@
 		2A15CCF51C93FF66007F6893 /* QSUppgradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15CCEB1C93FF66007F6893 /* QSUppgradeViewController.m */; };
 		2A15CCFC1C940296007F6893 /* QSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15CCFB1C940296007F6893 /* QSNavigationController.m */; };
 		2A15CCFF1C94090B007F6893 /* QSTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15CCFE1C94090B007F6893 /* QSTabBarViewController.m */; };
+		2A15CD0A1C944B63007F6893 /* card.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A15CD091C944B63007F6893 /* card.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		2A15CCFB1C940296007F6893 /* QSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSNavigationController.m; sourceTree = "<group>"; };
 		2A15CCFD1C94090B007F6893 /* QSTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSTabBarViewController.h; sourceTree = "<group>"; };
 		2A15CCFE1C94090B007F6893 /* QSTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSTabBarViewController.m; sourceTree = "<group>"; };
+		2A15CD091C944B63007F6893 /* card.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = card.plist; path = Classes/Introduce/Model/card.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		2A15CBE81C93F19F007F6893 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2A15CD091C944B63007F6893 /* card.plist */,
 				2A15CCF61C93FF78007F6893 /* PrefixHeader.pch */,
 				2A15CBF91C93F19F007F6893 /* Info.plist */,
 			);
@@ -458,6 +461,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A15CD0A1C944B63007F6893 /* card.plist in Resources */,
 				2A15CBF51C93F19F007F6893 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

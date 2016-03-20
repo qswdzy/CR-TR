@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>New item - 0</key>
+	<dict>
+		<key>name</key>
+		<string>加农炮</string>
+		<key>icon</key>
+		<string>B31</string>
+	</dict>
+	<key>New item - 1</key>
+	<dict>
+		<key>name</key>
+		<string>电塔</string>
+		<key>icon</key>
+		<string>B41</string>
+	</dict>
+	<key>New item - 2</key>
+	<dict>
+		<key>name</key>
+		<string>迫击炮</string>
+		<key>icon</key>
+		<string>B61</string>
+	</dict>
+	<key>New item - 3</key>
+	<dict>
+		<key>name</key>
+		<string>剑雨</string>
+		<key>icon</key>
+		<string>S01</string>
+	</dict>
+	<key>New item - 4</key>
+	<dict>
+		<key>name</key>
+		<string>骑士</string>
+		<key>icon</key>
+		<string>T01</string>
+	</dict>
+	<key>New item - 5</key>
+	<dict>
+		<key>name</key>
+		<string>亡灵</string>
+		<key>icon</key>
+		<string>T22</string>
+	</dict>
+	<key>New item - 6</key>
+	<dict>
+		<key>name</key>
+		<string>小闪电</string>
+		<key>icon</key>
+		<string>S51</string>
+	</dict>
+	<key>New item - 7</key>
+	<dict>
+		<key>name</key>
+		<string>弓箭手</string>
+		<key>icon</key>
+		<string>T03</string>
+	</dict>
+	<key>New item - 8</key>
+	<dict>
+		<key>name</key>
+		<string>哥布林</string>
+		<key>icon</key>
+		<string>T12</string>
+	</dict>
+	<key>New item - 9</key>
+	<dict>
+		<key>name</key>
+		<string>哥布林射手</string>
+		<key>icon</key>
+		<string>T11</string>
+	</dict>
+	<key>New item - 10</key>
+	<dict>
+		<key>name</key>
+		<string>投弹兵</string>
+		<key>icon</key>
+		<string>T03</string>
+	</dict>
+	<key>New item - 11</key>
+	<dict>
+		<key>name</key>
+		<string>骷髅兵</string>
+		<key>icon</key>
+		<string>T21</string>
+	</dict>
+</dict>
+</plist>

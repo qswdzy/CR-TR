@@ -7,8 +7,6 @@
 //
 
 #import "QSTabBarViewController.h"
-
-
 #import "QSHomeViewController.h"
 #import "QSIntroduceViewController.h"
 #import "QSUppgradeViewController.h"
@@ -24,35 +22,27 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+ 
     
     // 1.初始化子控制器
     QSHomeViewController *home = [[QSHomeViewController alloc] init];
     [self addChildVc:home title:@"首页" image:@"tabbar_home" selectedImage:@"tabbar_home_selected"];
     
     QSIntroduceViewController *introduce = [[QSIntroduceViewController alloc] init];
-    [self addChildVc:introduce title:@"介绍" image:@"compose_keyboardbutton_background" selectedImage:@"compose_keyboardbutton_background_selected"];
+    [self addChildVc:introduce title:@"介绍" image:@"compose_keyboardbutton_background" selectedImage:@"compose_keyboardbutton_background_highlighted"];
     
     QSUppgradeViewController *uppgrade = [[QSUppgradeViewController alloc] init];
-    [self addChildVc:uppgrade title:@"升级" image:@"compose_trendbutton_background" selectedImage:@"compose_trendbutton_background_selected"];
+    [self addChildVc:uppgrade title:@"升级" image:@"compose_trendbutton_background" selectedImage:@"compose_trendbutton_background_highlighted"];
     
     QSOtherViewController *other = [[QSOtherViewController alloc] init];
     [self addChildVc:other title:@"其他" image:@"tabbar_profile_selected" selectedImage:@"tabbar_profile_selected"];
 }
 
-/**
- *  添加一个子控制器
- *
- *  @param childVc       子控制器
- *  @param title         标题
- *  @param image         图片
- *  @param selectedImage 选中的图片
- */
+
 - (void)addChildVc:(UIViewController *)childVc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage
 {
     // 设置子控制器的文字
-    childVc.title = title; // 同时设置tabbar和navigationBar的文字
-    //    childVc.tabBarItem.title = title; // 设置tabbar的文字
-    //    childVc.navigationItem.title = title; // 设置navigationBar的文字
+    childVc.title = title;
     
     // 设置子控制器的图片
     childVc.tabBarItem.image = [UIImage imageNamed:image];
