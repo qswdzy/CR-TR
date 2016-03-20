@@ -17,10 +17,11 @@
 		2A15CCF21C93FF66007F6893 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15CCDF1C93FF66007F6893 /* AppDelegate.m */; };
 		2A15CCF31C93FF66007F6893 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15CCE01C93FF66007F6893 /* main.m */; };
 		2A15CCF41C93FF66007F6893 /* QSOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15CCE51C93FF66007F6893 /* QSOtherViewController.m */; };
-		2A15CCF51C93FF66007F6893 /* QSUppgradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15CCEB1C93FF66007F6893 /* QSUppgradeViewController.m */; };
 		2A15CCFC1C940296007F6893 /* QSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15CCFB1C940296007F6893 /* QSNavigationController.m */; };
 		2A15CCFF1C94090B007F6893 /* QSTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A15CCFE1C94090B007F6893 /* QSTabBarViewController.m */; };
 		2A15CD0A1C944B63007F6893 /* card.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A15CD091C944B63007F6893 /* card.plist */; };
+		2ADA215D1C9F239900683D7E /* QSUppgradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADA215C1C9F239900683D7E /* QSUppgradeViewController.m */; };
+		2ADA215F1C9F243C00683D7E /* ImageList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2ADA215E1C9F243C00683D7E /* ImageList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,14 +64,15 @@
 		2A15CCE01C93FF66007F6893 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A15CCE41C93FF66007F6893 /* QSOtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSOtherViewController.h; sourceTree = "<group>"; };
 		2A15CCE51C93FF66007F6893 /* QSOtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSOtherViewController.m; sourceTree = "<group>"; };
-		2A15CCEA1C93FF66007F6893 /* QSUppgradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSUppgradeViewController.h; sourceTree = "<group>"; };
-		2A15CCEB1C93FF66007F6893 /* QSUppgradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSUppgradeViewController.m; sourceTree = "<group>"; };
 		2A15CCF61C93FF78007F6893 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
 		2A15CCFA1C940296007F6893 /* QSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSNavigationController.h; sourceTree = "<group>"; };
 		2A15CCFB1C940296007F6893 /* QSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSNavigationController.m; sourceTree = "<group>"; };
 		2A15CCFD1C94090B007F6893 /* QSTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSTabBarViewController.h; sourceTree = "<group>"; };
 		2A15CCFE1C94090B007F6893 /* QSTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSTabBarViewController.m; sourceTree = "<group>"; };
 		2A15CD091C944B63007F6893 /* card.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = card.plist; path = Classes/Introduce/Model/card.plist; sourceTree = "<group>"; };
+		2ADA215B1C9F239900683D7E /* QSUppgradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSUppgradeViewController.h; sourceTree = "<group>"; };
+		2ADA215C1C9F239900683D7E /* QSUppgradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSUppgradeViewController.m; sourceTree = "<group>"; };
+		2ADA215E1C9F243C00683D7E /* ImageList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ImageList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -338,8 +340,8 @@
 		2A15CCE91C93FF66007F6893 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2A15CCEA1C93FF66007F6893 /* QSUppgradeViewController.h */,
-				2A15CCEB1C93FF66007F6893 /* QSUppgradeViewController.m */,
+				2ADA215B1C9F239900683D7E /* QSUppgradeViewController.h */,
+				2ADA215C1C9F239900683D7E /* QSUppgradeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -347,6 +349,7 @@
 		2A15CCEC1C93FF66007F6893 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2ADA215E1C9F243C00683D7E /* ImageList.plist */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADA215F1C9F243C00683D7E /* ImageList.plist in Resources */,
 				2A15CD0A1C944B63007F6893 /* card.plist in Resources */,
 				2A15CBF51C93F19F007F6893 /* Assets.xcassets in Resources */,
 			);
@@ -487,7 +491,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A15CCF51C93FF66007F6893 /* QSUppgradeViewController.m in Sources */,
 				2A15CCFC1C940296007F6893 /* QSNavigationController.m in Sources */,
 				2A15CCF01C93FF66007F6893 /* UIBarButtonItem+Extension.m in Sources */,
 				2A15CCEF1C93FF66007F6893 /* QSIntroduceViewController.m in Sources */,
@@ -496,6 +499,7 @@
 				2A15CCF41C93FF66007F6893 /* QSOtherViewController.m in Sources */,
 				2A15CCEE1C93FF66007F6893 /* QSHomeViewController.m in Sources */,
 				2A15CCF31C93FF66007F6893 /* main.m in Sources */,
+				2ADA215D1C9F239900683D7E /* QSUppgradeViewController.m in Sources */,
 				2A15CCF21C93FF66007F6893 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
