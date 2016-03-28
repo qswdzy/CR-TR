@@ -2,12 +2,12 @@
 //  QSHomeViewController.h
 //  CR-TR
 //
-//  Created by qswdzy on 16/3/12.
+//  Created by qswdzy on 16/3/28.
 //  Copyright © 2016年 qswdzy. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface QSHomeViewController : UITabBarController
+@interface QSHomeViewController : UIViewController
 
 @end

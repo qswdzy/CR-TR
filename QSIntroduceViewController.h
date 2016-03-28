@@ -2,12 +2,12 @@
 //  QSIntroduceViewController.h
 //  CR-TR
 //
-//  Created by qswdzy on 16/3/12.
+//  Created by qswdzy on 16/3/21.
 //  Copyright © 2016年 qswdzy. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface QSIntroduceViewController : UITabBarController
+@interface QSIntroduceViewController : UITableViewController
 
 @end
