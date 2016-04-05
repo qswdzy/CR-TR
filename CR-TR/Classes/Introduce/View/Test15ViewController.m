@@ -1,22 +1,22 @@
 //
-//  Test7ViewController.m
+//  Test15ViewController.m
 //  CR-TR
 //
 //  Created by qswdzy on 16/4/5.
 //  Copyright © 2016年 qswdzy. All rights reserved.
 //
 
-#import "Test7ViewController.h"
+#import "Test15ViewController.h"
 
-@interface Test7ViewController ()
+@interface Test15ViewController ()
 
 @end
 
-@implementation Test7ViewController
+@implementation Test15ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {
